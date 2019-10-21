@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+  font-family: 'Roboto';
+  }
+  
+  h1 {
+    font-size: 60px;
+    z-index: 0;
+
+  }
+
+  .navbar {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .material-icons.md-18 { font-size: 18px; }
+  .material-icons.md-24 { font-size: 24px; }
+  .material-icons.md-36 { font-size: 36px; }
+  .material-icons.md-48 { font-size: 48px; }
+
+  .parallax { 
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+
+    /* The image used */
+    background-image: url(/img/jessica-sysengrath-440137-unsplash.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+  .color-overlay {
+
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #05825B 0%, #2E006A 100%);
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+
+  }
+
+  .banner-after {
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    /* height: 204px; */
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
